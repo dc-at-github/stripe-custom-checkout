@@ -1,7 +1,7 @@
 // This is a public sample test API key.
 // Don’t submit any personally identifiable information in requests made with this key.
 // Sign in to see your own test API key embedded in code samples.
-const stripePublicKey = "";
+const stripePublicKey = "pk_test_51NCKGsSAoS8OKmlM7xWakKfE110peUTh2ktFqwRWZhWNHDqpG6JVarwWlmBWBJQNQx8LISUP7OCZ1CBX4IpOAbri00hH1qJ73J";
 
 //const stripePublicKey = "";
 
@@ -63,7 +63,7 @@ async function handleSubmit(e) {
     elements,
     confirmParams: {
       // Make sure to change this to your payment completion page
-      return_url: "http://localhost/stripe-test/success.html",
+      return_url: "https://stripe.about-dc-career.com/success.html",
       receipt_email: emailAddress,
     },
   }).then(function(result) {
